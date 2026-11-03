@@ -15,7 +15,7 @@
 
 Salecloud is a lightweight, Salesforce-inspired CRM for sales teams. It pairs an at-a-glance pipeline dashboard with a guided trial-adoption journal, so the team can understand what a user needs, support a real trial, and follow through on the outcome.
 
-The included lead scores and starter records are sample data. The current sales brief uses those lead scores and next steps to surface simple, explainable priorities; it does not call a generative AI service.
+The hosted workspace is preloaded with fictional sample leads. Fresh installs start with an empty lead list so teams can add their own records. The sales brief uses lead scores and next steps to surface simple, explainable priorities; it does not call a generative AI service.
 
 ## Highlights
 
@@ -58,7 +58,7 @@ server.js                 Express API and static app server
 public/index.html         Sales workspace UI
 public/app.js             Lead and trial-adoption interactions
 public/assets/            Salecloud brand artwork
-migrations/               PostgreSQL schema, starter leads, and trial activity
+migrations/               PostgreSQL schema and trial activity
 boxlite.toml              Hosted runtime, access, and auth settings
 ```
 

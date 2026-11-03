@@ -20,4 +20,4 @@ CREATE TABLE IF NOT EXISTS leads (
 CREATE INDEX IF NOT EXISTS leads_status_idx ON leads (status);
 CREATE INDEX IF NOT EXISTS leads_updated_idx ON leads (updated_at DESC);
 
--- Demo records are intentionally omitted from the public starter migration.
+-- Fresh installs start empty. The hosted workspace may include fictional sample leads.
