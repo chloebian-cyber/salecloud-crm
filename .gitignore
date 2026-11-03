@@ -1,0 +1,9 @@
+.boxlite/
+.env.local
+.env
+.env.*
+!.env.example
+node_modules/
+coverage/
+.DS_Store
+npm-debug.log*

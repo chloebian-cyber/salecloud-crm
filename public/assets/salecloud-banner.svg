@@ -1,0 +1,37 @@
+<svg width="1440" height="360" viewBox="0 0 1440 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="50" y1="14" x2="1366" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#0B1E37"/><stop offset=".6" stop-color="#123866"/><stop offset="1" stop-color="#1768B5"/></linearGradient>
+    <linearGradient id="glow" x1="930" y1="-20" x2="1330" y2="370" gradientUnits="userSpaceOnUse"><stop stop-color="#64B6FF" stop-opacity=".45"/><stop offset="1" stop-color="#5C7CFF" stop-opacity=".02"/></linearGradient>
+    <linearGradient id="card" x1="958" y1="101" x2="1312" y2="296" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" stop-opacity=".16"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".07"/></linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" stroke="#D6EBFF" stroke-opacity=".08"/></pattern>
+    <filter id="blur" x="852" y="-152" width="663" height="663" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="54"/></filter>
+  </defs>
+  <rect width="1440" height="360" rx="26" fill="url(#bg)"/>
+  <rect width="1440" height="360" rx="26" fill="url(#grid)"/>
+  <circle cx="1183" cy="104" r="224" fill="url(#glow)" filter="url(#blur)"/>
+  <circle cx="1180" cy="181" r="132" stroke="#D9EDFF" stroke-opacity=".13"/>
+  <circle cx="1180" cy="181" r="162" stroke="#D9EDFF" stroke-opacity=".08"/>
+  <rect x="83" y="74" width="43" height="43" rx="13" fill="#58A9FF"/>
+  <path d="M94.5 102h19a8 8 0 0 0 1-15.9 11.3 11.3 0 0 0-21.2-2.5A9.7 9.7 0 0 0 94.5 102Z" stroke="white" stroke-width="2"/>
+  <path d="m98 92 4 4 8-8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="145" y="102" fill="white" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="-1">sale<tspan fill="#78BEFF">cloud</tspan></text>
+  <rect x="83" y="151" width="152" height="27" rx="13.5" fill="#FFFFFF" fill-opacity=".1" stroke="#FFFFFF" stroke-opacity=".13"/>
+  <circle cx="101" cy="164.5" r="4" fill="#6AE0C0"/>
+  <text x="113" y="169" fill="#DCEEFF" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">SALES, IN FLOW</text>
+  <text x="83" y="229" fill="white" font-family="Arial,sans-serif" font-size="45" font-weight="700" letter-spacing="-2">Clear signals.</text>
+  <text x="83" y="278" fill="white" font-family="Arial,sans-serif" font-size="45" font-weight="700" letter-spacing="-2">Better sales.</text>
+  <text x="86" y="315" fill="#D0E2F5" font-family="Arial,sans-serif" font-size="16">A thoughtful CRM workspace for your next great conversation.</text>
+  <rect x="901" y="67" width="461" height="251" rx="18" fill="#05172D" fill-opacity=".32"/>
+  <rect x="914" y="80" width="435" height="225" rx="13" fill="url(#card)" stroke="#FFFFFF" stroke-opacity=".2"/>
+  <circle cx="936" cy="101" r="3" fill="#FF8F82"/><circle cx="947" cy="101" r="3" fill="#F8C96A"/><circle cx="958" cy="101" r="3" fill="#75D8B0"/>
+  <text x="935" y="132" fill="#C7DDF4" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">PIPELINE OVERVIEW</text>
+  <rect x="935" y="147" width="121" height="64" rx="9" fill="#FFFFFF" fill-opacity=".12"/><rect x="1067" y="147" width="121" height="64" rx="9" fill="#FFFFFF" fill-opacity=".12"/><rect x="1199" y="147" width="128" height="64" rx="9" fill="#FFFFFF" fill-opacity=".12"/>
+  <text x="947" y="166" fill="#C7DDF4" font-family="Arial,sans-serif" font-size="9">OPEN LEADS</text><text x="947" y="195" fill="white" font-family="Arial,sans-serif" font-size="24" font-weight="700">128</text>
+  <text x="1079" y="166" fill="#C7DDF4" font-family="Arial,sans-serif" font-size="9">PIPELINE VALUE</text><text x="1079" y="195" fill="white" font-family="Arial,sans-serif" font-size="24" font-weight="700">$2.4M</text>
+  <text x="1211" y="166" fill="#C7DDF4" font-family="Arial,sans-serif" font-size="9">AVG. LEAD SCORE</text><text x="1211" y="195" fill="white" font-family="Arial,sans-serif" font-size="24" font-weight="700">82</text>
+  <rect x="935" y="226" width="392" height="59" rx="9" fill="#75BFFF" fill-opacity=".14" stroke="#9ACFFF" stroke-opacity=".25"/>
+  <path d="m954 250 8-12 8 12h-16Z" fill="#7EC4FF"/>
+  <text x="980" y="246" fill="#E8F4FF" font-family="Arial,sans-serif" font-size="11" font-weight="700">Your next best conversation is one click away.</text>
+  <text x="980" y="265" fill="#BAD6F1" font-family="Arial,sans-serif" font-size="10">Prioritize. Personalize. Move forward.</text>
+  <circle cx="1340" cy="63" r="4" fill="#71C6FF"/><circle cx="873" cy="278" r="3" fill="#A7D7FF"/>
+</svg>

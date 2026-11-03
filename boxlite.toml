@@ -1,0 +1,22 @@
+access = "org"
+
+[app]
+name = "salecloud"
+
+[runtime]
+image = "node"
+size = "small"
+build = ["npm ci"]
+
+[[service]]
+name = "web"
+command = "npm start"
+port = 3000
+health = "/healthz"
+
+[database]
+migrations = "migrations/"
+
+[auth]
+providers = [ "github" ]
+protect = ["/app/*"]
